@@ -1,0 +1,28 @@
+{
+  "homepage": "http://sujaychand.github.io/react-recipe-finder-app",
+  "name": "react-recipe-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-preloaders": "^2.1.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "gh-pages": "^1.2.0",
+    "image-webpack-loader": "^4.3.1",
+    "jquery": "^3.3.1"
+  }
+}
